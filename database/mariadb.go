@@ -23,7 +23,12 @@ func Mariadb() *sql.DB {
 	if err != nil {
 		panic(err.Error())
 	} else {
-		fmt.Println("Mariadb Connected")
+		err = db.Ping()
+		if err != nil {
+			panic(err.Error())
+		} else {
+			fmt.Println("Mariadb Connected")
+		}
 	}
 	return db
 }
