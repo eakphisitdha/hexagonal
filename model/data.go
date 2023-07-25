@@ -7,7 +7,7 @@ type Data struct {
 	Name  string
 	Field sql.NullString
 	//
-	// input your data
+	// add your data
 	//
 }
 
@@ -16,6 +16,6 @@ type DataResponse struct {
 	Name  string `json:"name"`
 	Field string `json:"field"`
 	//
-	// input your data
+	// add your data
 	//
 }
