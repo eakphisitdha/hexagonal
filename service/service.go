@@ -1,9 +1,9 @@
 package service
 
 import (
-	"beerstore/model"
-	"beerstore/repository"
-	"beerstore/transaction"
+	"app/model"
+	"app/repository"
+	"app/transaction"
 	"log"
 )
 

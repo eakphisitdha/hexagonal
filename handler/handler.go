@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"beerstore/model"
-	"beerstore/service"
+	"app/model"
+	"app/service"
 	"log"
 	"net/http"
 	"strconv"

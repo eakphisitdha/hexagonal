@@ -1,11 +1,11 @@
 package main
 
 import (
-	"beerstore/database"
-	"beerstore/handler"
-	"beerstore/repository"
-	"beerstore/service"
-	"beerstore/transaction"
+	"app/database"
+	"app/handler"
+	"app/repository"
+	"app/service"
+	"app/transaction"
 	"context"
 	"log"
 
